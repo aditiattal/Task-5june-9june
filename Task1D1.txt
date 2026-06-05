@@ -1,0 +1,57 @@
+Day 1 Task 1: Manual Test Scenario Identification
+1. Verifying that the log in page loads. - smoke
+2. Verifying that the user can successfully enter the credentials i.e., username and password. - smoke
+3. Identifying whether new users can create username and password. -  Smoke
+4. Verifying if new users try to directly login into the site they should get a display that "create on account first" - Negative
+5. Verifying that if a user uses invalid credentials like a symbol or numbers then it should display, "use valid usernames as suggested below" - Negative
+6. Verify whether new users can log in successfully after creating an account - Regression
+7. Verify that when an already existing user tries to login the username should be visible to select
+7. Verifying whether the UI features(eye feature, cross) works to view the password - Smoke
+8. Verifying that for invalid password display should show "Invalid password for this username" - Negative
+
+
+9. login with locked users
+login with different user names
+
+
+9. Verify the product list is visible after login. - Regression
+10. Verify that if a user enters the product list page and then goes back to the login page the login page loads. - Regression 
+11. Verify that all the features are working if the users goes back to the login page from the product display page. - Regression 
+12. Verify that the keyboard functionality is available for the login page and product display page (enter , tab )- Smoke
+
+
+13. Verify whether the product details (price, description) is visible - Smoke
+
+15. Verify if the "Add to cart" and "Remove" button in functional. - Smoke
+16. Verify if the user can add more than 1 product to the cart. - Smoke
+17. Verify that if the product is not available or is out of stock or few number of items are left correct display is produced accordingly - Smoke
+18. Verify whether the filter tab is working successfully. 
+19. Verify whether the UI features like drop down, cart  is working properly for filter tab and vewing all features of the page .
+20. Verify that after clicking on logout the page is logged out successfully- 
+21. After logging out display is provided that the page is logged out and login page is visible. - regression
+22. Verify that after clicking on "rESET App State" the app is reset to the original state- Regression
+23. Verify that after clicking on "ABout" the page is loading, and all the button (login, book a demo, try for free, ) works - Smoke and  Regression
+
+24. 
+- regression
+25. Verifying if we remove the product from the cart, is it also showing removed from the all items list. - regression 
+26. verifying if we add move than one quantity to the cart of the same product, is it showing the updated number of products in the cart- reg
+27. verify whether all the ui features are working for the checkout page. - smoke
+28. verify that if we press checkout on empty cart it should display, "your cart is empty". - negative
+29. verify that after going back and forth from cart to the product disply page using "continue shopping", the product display page is visible with the already added products in the cart. - regression
+
+30. verify that at the checkout page all the tabs are working and the page is loading - smoke
+31. verify that the cancel and continue tab on the checkout page is working. - smoke
+32.  
+
+
+
+
+
+
+
+not working:
+1. reset app state 
+
+errpr:
+1. in the product list a product is not named correctly.
